@@ -27,7 +27,33 @@
 .App-link {
   color: #61dafb;
 }
+/*
+Custom CSS
+*/
 
+.img-wrapper img {
+  height: 100px;
+}
+
+.wrapper{
+  width: 500px;
+}
+.cart-wrapper img{
+  height: 100px;
+  position: absolute;
+  float: right;
+}
+ .btn-wrapper button{
+   background-color: red;
+   height: 30px;
+   border-radius: 10px;
+   box-shadow: #282c34 0px 10px 5px;
+ }
+
+
+/*
+Custom CSS ends here
+*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
