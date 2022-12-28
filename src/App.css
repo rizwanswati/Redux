@@ -30,25 +30,44 @@
 /*
 Custom CSS
 */
-
-.img-wrapper img {
-  height: 100px;
-}
-
-.wrapper{
+.over-wrapper{
   width: 500px;
+  margin-left: 1%;
+  margin-top: 2%;
+
 }
-.cart-wrapper img{
+
+.over-wrapper img{
+  float: left;
+  height: fit-content;
   height: 100px;
-  position: absolute;
-  float: right;
 }
- .btn-wrapper button{
-   background-color: red;
-   height: 30px;
-   border-radius: 10px;
-   box-shadow: #282c34 0px 10px 5px;
- }
+
+.item {
+  float: right;
+  margin-top: 3%;
+  padding: 20px;
+  margin-left: 1%;
+}
+
+.item button{
+  background-color: greenyellow;
+  height: 30px;
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: #a9a9a9 5px 5px 10px;
+  color: red;
+}
+.cart-wrapper{
+  position: absolute;
+  right: 0px;
+}
+
+.cart-wrapper img{
+  width: 100px;
+  height: 100px;
+}
+
 
 
 /*
