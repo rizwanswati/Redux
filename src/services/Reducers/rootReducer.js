@@ -5,6 +5,10 @@
 * */
 import {combineReducers} from "redux";
 import cartItems from "./reducer";
+
+/*
+* this will be imported as rootReducer in index.js
+* */
 export default combineReducers({
     cartItems
 });

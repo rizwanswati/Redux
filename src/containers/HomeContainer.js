@@ -3,10 +3,9 @@
 * in other words, binds actions with components
 * */
 
-import React from "react";
 import Home from "../components/Home";
 import {connect} from 'react-redux'
-import {addToCart} from "../services/Actions/actions";
+import {addToCart, removeFromCart} from "../services/Actions/actions";
 
 /*
 * @mapDispatchToProp: When sending data from action to redux store
@@ -15,11 +14,12 @@ import {addToCart} from "../services/Actions/actions";
 * */
 
 const mapStateToProps = state => ({
-    //TODO
+    // Data: state.cartItems.cartData
 })
 
 const mapDispatchToProps = dispatch=>({
-    addToCartHandler: data => dispatch(addToCart(data))
+    addToCartHandler: data => dispatch(addToCart(data)),
+    removeFromCartHandler: data => dispatch(removeFromCart(data))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)

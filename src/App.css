@@ -34,7 +34,6 @@ Custom CSS
   width: 500px;
   margin-left: 1%;
   margin-top: 2%;
-
 }
 
 .over-wrapper img{
@@ -66,6 +65,20 @@ Custom CSS
 .cart-wrapper img{
   width: 100px;
   height: 100px;
+}
+
+.cart-wrapper span{
+  background: red;
+  border-radius: 50%;
+  height: 26px;
+  width: 26px;
+  line-height: 26px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 6px;
+  position: relative;
+  top: -50px;
+  left: -61px;
 }
 
 
